@@ -1,4 +1,4 @@
-# CryptoWallet - Secure Password & File Storage
+# Digital Wallets - Secure Password & File Storage
 
 A secure application for storing encrypted passwords and files with sharing capabilities.
 
