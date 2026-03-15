@@ -25,10 +25,8 @@ begin
   where id = p_file_id and user_id = p_owner_id;
 
   -- Create the share record
-  insert into file_shares (
-    file_id,
-    owner_id,
-    shared_with_id,
+   insert into file_shares (
+ file_id, owner_id, shared_with_id,
     encrypted_key
   ) values (
     p_file_id,
